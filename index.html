@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Grand Hawaiian Tour</title>
+        <style>
+            header{
+                display:block;
+                width:700px;
+                height:60px;
+                background-color:#88B47F;
+            }
+            h2{
+                margin-left:40px;
+                padding-top:16px;
+            }
+            #gameArea{
+                float:left;
+                width:500px;
+                height:500px;
+                background-image: url("assets/map.jpg");
+            }
+            #buttonColumn{
+                width:200px;
+                height:500px;
+                background-color:#FDCEC6;
+                float:left;
+                text-align: center;
+            }
+            footer{
+                background-color:#BDB76B;
+                width:700px;
+                height:40px;
+                font-weight:bold;
+                text-align:center;
+                overflow:auto;
+            }
+            #sprite{
+                position:absolute;
+                display:block;
+                width:64px;
+                height:64px;
+                top:240px;
+                left:188px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Grand Hawaiian Tour</h2>
+        </header>
+
+        <div id="gameArea"></div>
+        <img id="sprite" src="assets/sprite.png">
+        
+        <div id="buttonColumn">
+            <br>
+            <b>Column 'o buttons</b>
+            <br>
+            <p>This is an awesome game!</p>
+            <br>
+            <button type="button">Click to play</button>
+            <button type="button">Toss in the towel</button>
+        </div>
+
+        <footer>
+            Copyright © BC Game Demons
+        </footer>
+    </body>
+</html>
